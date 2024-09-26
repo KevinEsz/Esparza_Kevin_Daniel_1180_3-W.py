@@ -1,6 +1,6 @@
-# Esparza_Kevin_Daniel_1180_3-W.py
-Repositorio corto para la entrega del examen del primer parcial
+#Programa para crear y mostrar el nombre completo de una persona a partir de variables
 
+#Imprime el encabezado del programa
 print("Esparza Mares Kevin Daniel 3-W")
 
 print("")
@@ -9,28 +9,49 @@ print("Este programa crea el nombre del propietario en forma de variables y las 
 
 print("")
 
-Nombre = "kevin" #A la variable "nombre" se le da el valor del nombre "Kevin"
+#Solicita al usuario que ingrese su primer nombre
 
-Nombre_2 = "Daniel" #A la variable "Nombre 2" se le da el valor del segundo nombre "Daniel"
-
-apellido = "esparza" #A la varibñe 3 "apellido" se le da el apellido paterno del propietario "Esparza"
-
-apellido_M = "mares" #A la variable 4 "apellido_M" se le da el apellido materno del propietario "Mares"
-
-print ("El nombre completo es:", Nombre, Nombre_2, apellido, apellido_M) #Se da la orden de crear un parrafo poniendo en orden las variables
+nombre = input("Ingresa tu primer nombre:")
 
 print("")
 
-NombreM = "KEVIN" #Estos segundos tipos de variables son para hacer lo miesmo pero desplegado en mayusculas
+#Solicita al usuario que ingrese su segundo nombre
 
-Nombre_2M = "DANIEL" #Estos segundos tipos de variables son para hacer lo miesmo pero desplegado en mayusculas
+nombre_2 = input("Ingresa tu segundo nombre:")
 
-apellidoM = "ESPARZA" #Estos segundos tipos de variables son para hacer lo miesmo pero desplegado en mayusculas
+print("")
 
-apellido_MM = "MARES" #Estos segundos tipos de variables son para hacer lo miesmo pero desplegado en mayusculas
+#Solicita al usuario que ingrese su apellido paterno
 
-print ("El nombre completo en mayusculas es:", NombreM, Nombre_2M, apellidoM, apellido_MM)
+apellido = input("Ingresa tu apellido:")
 
-![image](https://github.com/user-attachments/assets/ca2464c3-9b95-4a6a-bc46-a0c0432e3f15)
+print("")
 
-![image](https://github.com/user-attachments/assets/bad45ada-d279-474c-b55c-a26969c422eb)
+#Solicita al usuario que ingrese su apellido materno
+
+apellidoM = input("Ingresa tu apellido materno:")
+
+print("")
+
+#Imprime el nombre completo en el orden: apellido, apellido materno, primer nombre, segundo nombre
+
+print("Tu nombre completo es:", apellido, apellidoM, nombre, nombre_2)
+
+print("")
+
+#Convierte el nombre completo a mayúsculas y lo imprime
+
+nombre_en_mayusculas = apellido.upper() + " " + apellidoM.upper() + " " + nombre.upper() + " " + nombre_2.upper()
+
+print("Tu nombre completo en mayúsculas es:", nombre_en_mayusculas)
+
+print("")
+
+#Indica que el proceso ha terminado
+
+print("Proceso terminado, nos vemos. :)")
+
+![image](https://github.com/user-attachments/assets/9a2141f2-6971-4ce8-86cf-e2782e1c5255)
+
+![image](https://github.com/user-attachments/assets/48af379d-4dde-4141-97d7-ed7d5fee4714)
+
